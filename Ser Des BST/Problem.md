@@ -19,6 +19,7 @@ Output: []
 
 
 ### Constraints:
-- The number of nodes in the tree is in the range [0, 104].
-- 0 <= Node.val <= 104
+
+- The number of nodes in the tree is in the range [0, 10^4].
+- 0 <= Node.val <= 10^4
 - The input tree is guaranteed to be a binary search tree.
