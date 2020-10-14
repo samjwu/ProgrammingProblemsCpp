@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* getMiddle(ListNode* head) {        
+    ListNode* get_middle(ListNode* head) {        
         ListNode* before_middle = nullptr;
         while (head != nullptr && head->next != nullptr) {
             if (before_middle == nullptr) {
@@ -55,7 +55,7 @@ public:
             return head;
         }
         
-        ListNode* middle = getMiddle(head);
+        ListNode* middle = get_middle(head);
         ListNode* left_list = sortList(head);
         ListNode* right_list = sortList(middle);
         
