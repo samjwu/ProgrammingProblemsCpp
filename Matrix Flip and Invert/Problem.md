@@ -30,7 +30,6 @@ Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 
 
 
-
 ### Constraints:
 
 - 1 <= A.length = A[0].length <= 20
