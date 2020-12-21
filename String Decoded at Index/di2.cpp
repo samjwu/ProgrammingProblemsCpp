@@ -13,11 +13,14 @@ public:
         }
         
         while (idx--) {
-            if (isdigit(S[idx])) {
-                length /= S[idx] - '0';
-                K %= length;
-            } else if (K % length-- == 0) {
+            K %= length;
+
+            if (K == 0) {
                 return string(1, S[idx]);
+            } else if (isdigit(S[idx])) {
+                length /= S[idx] - '0';
+            } else {
+                length--;
             }
         }
         
