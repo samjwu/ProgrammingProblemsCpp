@@ -10,6 +10,10 @@ public:
                     sub += final;
                 }
                 final = sub;
+                if (final.length() >= K) {
+                    string ans(1, final[K - 1]);
+                    return ans;
+                }
                 sub.clear();
             } else {
                 final.push_back(c);
