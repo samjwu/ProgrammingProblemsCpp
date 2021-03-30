@@ -8,10 +8,6 @@ public:
         return e1[0] < e2[0];
     }
     
-    bool smaller(vector<int>& e1, vector<int>& e2) {
-        return e1[0] < e2[0] && e1[1] < e2[1];
-    }
-    
     int binarySearch(int l, int r, int val, vector<int>& memo) {
         while (r - l > 1) {
             int m = l + (r - l) / 2;
