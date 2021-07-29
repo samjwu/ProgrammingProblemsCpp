@@ -1,1 +1,0 @@
-This problem is similar to the Movie Scheduling Problem in The Algorith Design Manaual (Skiena)
